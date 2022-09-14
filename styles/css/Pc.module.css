@@ -1,0 +1,152 @@
+.logo {
+  text-align: center;
+  padding-top: 34px;
+
+}
+
+.main{
+  background-image: url('../../app/@img/background1.png');
+  background-size: 100% 100%;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.registerTitle {
+  background-image: url('../../app/@img/Frame1.png');
+  width: 258px;
+  height: 88px;
+  text-align: center;
+}
+
+
+.titleLeft {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+  padding-top: 20px;
+}
+
+.titleRight {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFFFF;
+  padding-top: 15px;
+}
+
+.registerLoginTitle {
+  background-image: url('../../app/@img/Frame2.png');
+  width: 192px;
+  height: 80px;
+  text-align: center;
+}
+
+
+
+.formInput {
+  padding-top: 12px;
+}
+
+.intputBackground {
+  background-image: url('../../app/@img/Frame3.png');
+  width: 418px;
+  height: 57px;
+}
+
+.titleIntput {
+  padding: 18px 56px;
+}
+
+.input {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #969696;
+  border: none;
+  width: -webkit-fill-available;
+}
+
+.titleIntputCapcha {
+  padding: 10px 56px;
+}
+
+.inputCapcha{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #969696;
+  border: none;
+}
+
+.checkBox{
+  width: 17px;
+  height: 17px;
+}
+
+.register{
+  background-image: url('../../app/@img/register.png');
+  width: 437px;
+  height: 134px;
+}
+
+.tileRegister {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+  padding: 9px 102px;
+}
+
+.footer{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.loginRegisterTitle {
+  background-image: url('../../app/@img/Frame4.png');
+  width: 186px;
+  height: 72px;
+  text-align: center;
+}
+
+.loginTitle {
+  background-image: url('../../app/@img/Frame5.png');
+  width: 252px;
+  height: 80px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .card {
+    border-color: #222;
+  }
+}
