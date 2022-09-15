@@ -21,7 +21,7 @@ const LoginRegisterPC = () => {
       <div className={styles.main}>
         <div className={styles.grid}>
           <div className={styles.card}>
-            <Image src={Imgleft} alt="" />
+            <Image width={400} src={Imgleft} alt="" />
           </div>
           <>
           {login ? 
@@ -229,7 +229,7 @@ const LoginRegisterPC = () => {
             }
           </>
           <div className={styles.card}>
-            <Image src={Imgright} alt="" />
+            <Image width={400} src={Imgright} alt="" />
           </div>
         </div>
         <div className={styles.footer}>
@@ -241,7 +241,7 @@ const LoginRegisterPC = () => {
         </div>
       </div>
     </main>
-  );
+  )
 };
 
 export default LoginRegisterPC;
